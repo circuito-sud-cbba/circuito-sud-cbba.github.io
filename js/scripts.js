@@ -80,8 +80,8 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("counter").innerHTML = "Cuenta regresiva: " + days + " día - " + hours + " horas - "
-  + minutes + " minutos - " + seconds + " segundos ";
+  document.getElementById("counter").innerHTML = "Inciamos en... " + days + " días, " + hours + " horas, "
+  + minutes + " minutos, " + seconds + " segundos.";
 
   // If the count down is finished, write some text 
   if (distance < 0) {

@@ -10093,10 +10093,17 @@ hr.light {
   }
 }
 
+section.afiche {
+  background: url("../assets/img/afiche.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpeg");
+  background: url("../assets/img/bg-masthead.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10117,6 +10124,11 @@ header.masthead h1 {
   }
   header.masthead h1 {
     font-size: 3rem;
+  }
+
+  section.afiche {
+    height: 130vh;
+    min-height: 40rem;
   }
 }
 @media (min-width: 1200px) {
